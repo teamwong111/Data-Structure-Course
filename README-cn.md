@@ -14,7 +14,9 @@
 本仓库为包含同济大学2020年数据结构课程的两个大作业：
 1. 算法实现：邻接矩阵的dfs和bfs
 2. 综合应用：上海地铁换乘指南
+
 其中综合实现部分参考了https://github.com/BaiJiazm/SubwayTransferSystem
+
 更多详细信息，请参阅report.pdf
 
 ---
