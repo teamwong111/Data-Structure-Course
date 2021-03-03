@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/data">
+        <file>mydata/demo.txt</file>
+    </qresource>
+    <qresource prefix="/html">
+        <file>myhtml/about.html</file>
+        <file>myhtml/create_show.html</file>
+        <file>myhtml/ergodic.html</file>
+        <file>myhtml/function_overview.html</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>myicon/aboutauther.png</file>
+        <file>myicon/bfs.png</file>
+        <file>myicon/create.png</file>
+        <file>myicon/dfs_nostack.png</file>
+        <file>myicon/dfs_stack.png</file>
+        <file>myicon/help.png</file>
+        <file>myicon/qt.png</file>
+        <file>myicon/demo.png</file>
+        <file>myicon/demodata.png</file>
+        <file>myicon/cover.png</file>
+    </qresource>
+</RCC>

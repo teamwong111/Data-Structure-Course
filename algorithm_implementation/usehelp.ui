@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Usehelp</class>
+ <widget class="QTabWidget" name="Usehelp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>423</width>
+    <height>319</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <property name="currentIndex">
+   <number>3</number>
+  </property>
+  <widget class="QWidget" name="tab1">
+   <attribute name="title">
+    <string>功能总览</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>421</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/html/myhtml/function_overview.html</string>
+     </url>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab_2">
+   <attribute name="title">
+    <string>建立并显示</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>421</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/html/myhtml/create_show.html</string>
+     </url>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab_3">
+   <attribute name="title">
+    <string>遍历</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>421</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/html/myhtml/ergodic.html</string>
+     </url>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab">
+   <attribute name="title">
+    <string>关于</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>421</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/html/myhtml/about.html</string>
+     </url>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
