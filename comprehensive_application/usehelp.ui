@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Usehelp</class>
+ <widget class="QTabWidget" name="Usehelp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>456</width>
+    <height>332</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <property name="currentIndex">
+   <number>0</number>
+  </property>
+  <widget class="QWidget" name="tab1">
+   <attribute name="title">
+    <string>功能总览</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>451</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;功能总览&lt;/span&gt; &lt;/p&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;视图：&lt;/span&gt;&lt;/li&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;放大&lt;img src=&quot;:/icon/myicon/enlarge.png&quot; height=&quot;24&quot; /&gt; 缩小&lt;img src=&quot;:/icon/myicon/narrow.png&quot; height=&quot;24&quot; /&gt; (鼠标可直接缩放)&lt;br /&gt;查看地铁路线总图&lt;img src=&quot;:/icon/myicon/metronet.png&quot; height=&quot;24&quot; /&gt; (将鼠标悬停在站点可查看站点详细信息、将鼠标悬停在线路可查看线路详细信息)&lt;br /&gt;&lt;/p&gt;
+&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;添加：&lt;/span&gt;&lt;/li&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;动态添加&lt;img src=&quot;:/icon/myicon/dynamicadd.png&quot; height=&quot;24&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;添加路线 &lt;/li&gt;
+&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;添加站点 &lt;/li&gt;
+&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;添加连接 &lt;/li&gt;
+&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;添加文本 &lt;/li&gt;&lt;/ul&gt;
+&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;换乘：&lt;/span&gt;&lt;/li&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;最短时间换乘&lt;br /&gt;最少次数换乘&lt;br /&gt;&lt;/p&gt;
+&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;关于：&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;关于Qt&lt;img src=&quot;:/icon/myicon/aboutqt.png&quot; height=&quot;24&quot; /&gt;&lt;br /&gt;关于作者&lt;img src=&quot;..icon/myicon/aboutauther.png&quot; height=&quot;24&quot; /&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/html/myhtml/function_overview.html</string>
+     </url>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab2">
+   <attribute name="title">
+    <string>视图</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>451</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/html/myhtml/view.html</string>
+     </url>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab3">
+   <attribute name="title">
+    <string>添加</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>451</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/html/myhtml/dynamicadd.html</string>
+     </url>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab4">
+   <attribute name="title">
+    <string>换乘</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>451</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/html/myhtml/transfer.html</string>
+     </url>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab5">
+   <attribute name="title">
+    <string>关于</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>451</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/html/myhtml/about.html</string>
+     </url>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

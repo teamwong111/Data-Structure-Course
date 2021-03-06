@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/data">
+        <file>mydata/demo.txt</file>
+        <file>mydata/rawdata.txt</file>
+    </qresource>
+    <qresource prefix="/html">
+        <file>myhtml/view.html</file>
+        <file>myhtml/transfer.html</file>
+        <file>myhtml/function_overview.html</file>
+        <file>myhtml/dynamicadd.html</file>
+        <file>myhtml/about.html</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>myicon/aboutauther.png</file>
+        <file>myicon/enlarge.png</file>
+        <file>myicon/help.png</file>
+        <file>myicon/metronet.png</file>
+        <file>myicon/narrow.png</file>
+        <file>myicon/aboutqt.png</file>
+        <file>myicon/cover.png</file>
+        <file>myicon/dynamicadd.png</file>
+    </qresource>
+</RCC>
